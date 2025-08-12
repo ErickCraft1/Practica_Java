@@ -7,6 +7,6 @@ public static void main(String[] arg) {
 
 static int sumar(int a, int b) {
 	int result = a + b;
-	return result;
+	return result; // soy un comentario
 }
 }
