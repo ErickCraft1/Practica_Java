@@ -37,16 +37,14 @@ public class exercise20 {
         return n % 2 == 0;
     }
     static String evaluateNumber(int n) {
-        if (isPar2(n)) {
-            if(n > 0) {
-                return "Positivo par";
-            }else if (n == 0) {
-                return "Cero";
-            } else if (n < 0) {
-                return "Negativo";
-            }
-        }else if (n <0) {
+        if (n == 0) {
+            return "Cero";
+        }
+        if (n < 0) {
             return "Negativo";
+        }
+        if (isPar2(n)) {
+                return "Positivo par";
         }
         return "Positivo impar";
     }
