@@ -46,12 +46,11 @@ public class exercise28 {
     }
 
     static int firstMultipleThatExceeds(int base, int limit) {
-        int a = base;
-        int b = limit;
-        int result = 0;
-        if (a % b == 0) {
-            result+=a;
+        int acc = 0;
+        while (acc< limit) {
+            if(acc+base>=limit) break;
+            acc +=base;
         }
-        return result;
+        return acc;
     }
 }
