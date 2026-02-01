@@ -29,6 +29,7 @@ public class exercise24 {
         System.out.println(countPairsUntil(7));
         System.out.println(countPairsUntil(0));
         System.out.println(countPairsUntil(-5));
+        System.out.println(countPairsUntil(7));
     }
 
     static int countPairsUntil(int n) {
