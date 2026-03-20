@@ -1,10 +1,10 @@
 package practice.arrays;
 
-public class excerice62 {
+public class exercise62 {
     /*
      * Practicando Arrays
      *
-     * Crear una función subarraySumInRange(int[] num, int k).
+     * Crear una función subarraySumInRange(int[] num, int a, int b).
      *
      * Debe:
      * - retornar la longitud del subarray más largo cuya suma esté en el rango [a, b].
