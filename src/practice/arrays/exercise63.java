@@ -1,6 +1,6 @@
 package practice.arrays;
 
-public class excerise63 {
+public class exercise63 {
     /*
      * Practicando Arrays
      *
