@@ -62,3 +62,19 @@ public class exercise68 {
         System.out.println(Arrays.toString(copy));
     }
 }
+
+/*
+ * Build-in 'Arrays.fill(), Arrays.equals() y System.arraycopy()'
+ * - fill rellena con un número en especifico o tambien en un rango con el numero en especifico
+ * - equals compara si 2 arrays son exactamente iguales tanto en loguitud, orden y valores.
+ *
+ * La complejidad algoritmica de este ejercicio es O(n).
+ *
+ *
+ *
+ * Build-in 'Arrays.fill(), Arrays.equals(), and System.arraycopy()'
+ * - `fill` fills an array with a specific number or within a range containing a specific number.
+ * - `equals` compares two arrays to see if they are exactly equal in length, order, and values.
+ *
+ * The algorithmic complexity of this exercise is O(n).
+ */

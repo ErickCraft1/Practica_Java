@@ -66,9 +66,9 @@ public class exercise67 {
  *
  *
  *
- * Build-in 'Arrays.copyOf() y Arrays.copyOfRange'
- * - copyOf copia desde índice 0 hasta nuevaLongitud
- * - copyOfRange copia desde 'desde' hasta 'hasta' (exclusivo)
+ * Build-in 'Arrays.copyOf() and Arrays.copyOfRange'
+ * - copyOf copies from index 0 to newLength
+ * - copyOfRange copies from 'from' to 'to' (exclusive)
  *
- * La complejidad algoritmica de estos dos es O(n).
+ * The algorithmic complexity of these two is O(n).
  */
