@@ -33,24 +33,24 @@ public class exercise69 {
         System.out.println(searchInSorted(new int[]{5, 6}, new int[]{}));
     }
 
-    static int searchInSorted(int[] arr, int[] targets){
-        int result, count=0;
-        if(targets.length<1){
+    static int searchInSorted(int[] arr, int[] targets) {
+        int result, count = 0;
+        if (targets.length < 1) {
             System.out.println("\nTarget is empty");
             return count;
         }
         Arrays.sort(arr);
         System.out.println("\narr = " + Arrays.toString(arr) + ", targets = " + Arrays.toString(targets));
-        for (int num:targets){
-            result =Arrays.binarySearch(arr,num);
-            System.out.print("Value: "+num+ ", ");
-            if(result<0){
-                System.out.print("Does it exist?: "+false+ ", ");
-            }else {
-                System.out.print("Does it exist?: "+true+ ", ");
+        for (int num : targets) {
+            result = Arrays.binarySearch(arr, num);
+            System.out.print("Value: " + num + ", ");
+            if (result < 0) {
+                System.out.print("Does it exist?: " + false + ", ");
+            } else {
+                System.out.print("Does it exist?: " + true + ", ");
                 count++;
             }
-            System.out.println("Index: "+result);
+            System.out.println("Index: " + result);
         }
         System.out.println("Targets found: " + count);
         return count;
